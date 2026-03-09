@@ -3,11 +3,16 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "ForEach1",
+				"name": "Load_all_tables",
 				"type": "ForEach",
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.loop_input",
+						"type": "Expression"
+					},
+					"isSequential": true,
 					"activities": [
 						{
 							"name": "AzureSQLtoLake",
@@ -76,7 +81,7 @@
 									"parameters": {
 										"container": "bronze",
 										"folder": {
-											"value": "@{item()}.table",
+											"value": "@{item().table}",
 											"type": "Expression"
 										},
 										"file": {
