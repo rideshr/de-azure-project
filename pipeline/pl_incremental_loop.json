@@ -327,7 +327,9 @@
 						"activity": "Load_all_tables",
 						"dependencyConditions": [
 							"Failed",
-							"Skipped"
+							"Skipped",
+							"Succeeded",
+							"Completed"
 						]
 					}
 				],
