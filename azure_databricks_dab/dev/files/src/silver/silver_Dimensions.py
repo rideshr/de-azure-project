@@ -30,11 +30,6 @@ display(df)
 
 
 # COMMAND ----------
-
-# df_user = spark.readStream.format("cloudFiles")\
-#     .option("cloudFiles.format", "parquet")\
-#     .option("cloudFiles.schemaLocation", "abfss://silver@sadeazureproject.dfs.core.windows.net/DimUser/checkpoint")\
-#     .load("abfss://bronze@sadeazureproject.dfs.core.windows.net/DimUser")
 df_user = spark.readStream.format("cloudFiles") \
     .option("cloudFiles.format", "parquet") \
     .option("cloudFiles.schemaLocation", "abfss://silver@sadeazureproject.dfs.core.windows.net/DimUser/schema") \
