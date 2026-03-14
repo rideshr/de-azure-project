@@ -1,4 +1,4 @@
-# End-to-End Data Engineering Pipeline 🎧
+# Spotify End-to-End Data Engineering Pipeline 🎧
 
 ![Azure](https://img.shields.io/badge/Cloud-Azure-blue)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow)
