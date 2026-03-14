@@ -143,6 +143,23 @@ Execute PySpark notebooks to clean and transform the data.
 ### 4. Load Data to SQL Database
 Store processed data for analytics and reporting.
 
+## 📸 Project Screenshots
+
+### Azure Data Factory Pipeline
+![ADF Pipeline](screenshots/ADF%20Incremental%20Ingestion%20Pipeline.png)
+
+### Databricks Notebook
+![Databricks Notebook](screenshots/Databricks%20Notebook.png)
+
+### Databricks Declarative Pipeline
+![Databricks Declarative Pipeline](screenshots/Databricks%20Declarative%20Pipeline.png)
+
+### Azure Storage Account Container
+![Azure Storage Account Container](screenshots/Azure%20Storage%20Account%20Container.png)
+
+### Azure Resource Group
+![Azure Resource Group](screenshots/Azure%20Resource%20Group.png)
+
 # 🎯 Key Learning Outcomes
 
 ✔ Building end-to-end data pipelines  
