@@ -169,3 +169,9 @@ Store processed data for analytics and reporting.
 ✔ Implementing dimensional data models  
 ✔ Real-world data engineering workflow
 
+# 📚 References
+
+Tutorial used for building this project:
+
+Spotify End-To-End Azure Data Engineering Project by **Ansh Lamba**
+
